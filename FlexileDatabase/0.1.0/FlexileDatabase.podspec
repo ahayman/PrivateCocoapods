@@ -19,6 +19,7 @@ Warning: At the moment, while these classes handle just about all types of updat
         :tag => s.version.to_s
     }
     s.source_files = 'FlxDatabase/*.{h,m}'
+    s.library = 'sqlite3'
     s.dependency 'FlexileToolkit'
     s.platform = :ios, '5.1'
     s.requires_arc = true
